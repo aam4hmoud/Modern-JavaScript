@@ -8,3 +8,9 @@ if (true) {
 for (let i = 0; i < 3; i++) {
     console.log("Loop iteration: " + i);
 }
+
+let sum =
+    1 +
+    2 +
+    3;
+console.log(sum); // Outputs: 6
