@@ -17,3 +17,18 @@ function greetWithDefault(name = "Guest") {
 
 greetWithDefault();        // Welcome, Guest!
 greetWithDefault("David"); // Welcome, David!
+
+
+function gradeScore(score) {
+    if (score >= 90) {
+        return "A";
+    }
+    if (score >= 80) {
+        return "B";
+    }
+    return "C";
+}
+
+console.log(gradeScore(95)); // Outputs: A
+console.log(gradeScore(85)); // Outputs: B
+console.log(gradeScore(75)); // Outputs: C
