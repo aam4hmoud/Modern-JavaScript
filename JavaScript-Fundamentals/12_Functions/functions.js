@@ -52,3 +52,7 @@ function scopeExample() {
 scopeExample();
 console.log(globalVar);  // I'm global
 console.log(localVar);   // Throws an error: localVar is not defined
+
+function getUserData() {}
+function validateInput() {}
+function updateDisplay() {}
