@@ -56,3 +56,17 @@ console.log(localVar);   // Throws an error: localVar is not defined
 function getUserData() {}
 function validateInput() {}
 function updateDisplay() {}
+
+
+let greet = function(name) {
+    console.log("Hello, " + name);
+};
+
+greet("Alice"); // Outputs: Hello, Alice
+
+
+let greet = (name) => {
+    console.log("Hello, " + name);
+};
+
+greet("Bob"); // Outputs: Hello, Bob
