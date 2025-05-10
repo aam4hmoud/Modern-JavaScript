@@ -42,3 +42,8 @@ if (num > 0) {
 } else {
     console.log("Number is zero or negative");
 }
+
+
+let age = 20;
+let canVote = age >= 18 ? "Yes" : "No";
+console.log("Can vote:", canVote);
