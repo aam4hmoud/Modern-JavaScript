@@ -32,3 +32,10 @@ function gradeScore(score) {
 console.log(gradeScore(95)); // Outputs: A
 console.log(gradeScore(85)); // Outputs: B
 console.log(gradeScore(75)); // Outputs: C
+
+function noReturn() {
+    console.log("This function doesn't return anything");
+}
+
+let result = noReturn();
+console.log(result); // Outputs: undefined
